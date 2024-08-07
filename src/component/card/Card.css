@@ -1,0 +1,76 @@
+.Parent_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px !important;
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+
+}
+
+.card {
+    padding: 30px !important;
+    display: flex !important;
+    background-color: #010038;
+    color: white;
+}
+
+.card-body-df {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    background-color: #010038;
+    align-items: center;
+}
+
+img {
+    width: 80px;
+}
+
+.Parent_card {
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 480px) {
+    .card {
+        width: 26rem !important;
+    }
+
+    .card-body-df {
+        width: 26rem !important;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-body-df {
+        flex-direction: column !important;
+    }
+
+}
+
+@media (max-width: 801px) {
+    .card-body-df {
+        flex-direction: column;
+        width: 462px;
+    }
+
+}
+
+@media (max-width:1025px) {
+    .card-body-df {
+        width: 57rem !important;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1281px) {
+    .card-body-df {
+        width: 73rem !important;
+        justify-content: space-between;
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+
+    }
+}

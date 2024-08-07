@@ -1,0 +1,119 @@
+.table_head {
+  margin-top: 40px !important;
+  display: flex;
+  justify-content: space-between;
+  background-color: #010038 !important;
+  padding: 0px !important;
+
+}
+
+.div_input {
+  display: flex !important;
+  /* justify-content: space-evenly !important; */
+  gap: 20px;
+}
+
+.input_sty {
+  margin-top: 2px;
+  padding: 6px !important;
+  border: 2px solid rgb(114, 111, 111);
+  border-radius: 25px;
+  background-color: whitesmoke;
+}
+
+.tabple_product {
+  display: flex !important;
+  gap: 10px;
+}
+
+.table_first_div {
+  width: 62%;
+}
+
+.table_parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.table_card {
+  padding-top: 38px !important;
+  padding-left: 75px !important;
+  width: 640px !important;
+}
+
+.table tr {
+  background-color: #010038 !important;
+  color: aliceblue;
+}
+
+.table td {
+  background-color: #010038 !important;
+  color: aliceblue;
+
+}
+
+.table th {
+  background-color: #010038 !important;
+  color: aliceblue;
+
+}
+
+.card_p_table_text {
+  background-color: #010038 !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #696666 #010038;
+  height: 293px;
+}
+
+@media (max-width: 480px) {
+  .table_card {
+    padding-left: 0;
+  }
+
+  .table_parent {
+    padding: 10px;
+  }
+
+  .card_p_table_text {
+    width: 368px;
+  }
+}
+
+@media (max-width: 600px) {
+  .table_card {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 801px) {
+  .table_card {
+    padding-left: 0;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  .table_card {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .card_p_table_text {
+    width: 894px;
+  }
+}
+
+@media (max-width: 1281px) {
+  .table_card {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .card_p_table_text {
+    width: 1150px;
+  }
+}
