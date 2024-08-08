@@ -59,14 +59,14 @@ img {
 
 }
 
-@media (max-width:1025px) {
+@media (min-width:1025px) {
     .card-body-df {
         width: 57rem !important;
         justify-content: space-between;
     }
 }
 
-@media (max-width:1281px) {
+@media (min-width:1281px) {
     .card-body-df {
         width: 73rem !important;
         justify-content: space-between;
