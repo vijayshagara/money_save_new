@@ -79,7 +79,7 @@
   }
 
   .card_p_table_text {
-    width: 368px;
+    width: 368px !important;
   }
 }
 
