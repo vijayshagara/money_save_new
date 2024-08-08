@@ -83,20 +83,20 @@
   }
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
   .table_card {
     padding-left: 0;
   }
-} */
+}
 
-/* @media (max-width: 801px) {
+@media (max-width: 801px) {
   .table_card {
     padding-left: 0;
     padding-top: 0;
   }
-} */
+}
 
-/* @media (max-width: 1025px) {
+@media (max-width: 1025px) {
   .table_card {
     padding-left: 0;
     padding-top: 0;
@@ -105,7 +105,7 @@
   .card_p_table_text {
     width: 894px;
   }
-} */
+}
 
 @media (min-width: 1281px) {
   .table_card {
