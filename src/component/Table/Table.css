@@ -39,7 +39,7 @@
 
 .table_card {
   padding-top: 38px !important;
-  padding-left: 75px !important;
+  padding-left: 75px;
   width: 640px !important;
 }
 
