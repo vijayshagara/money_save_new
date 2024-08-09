@@ -70,7 +70,6 @@ const Card = () => {
     ],
   });
   return (
-      <h2>Dashboard</h2>
     <div className="Parent_card">
       {array &&
         array.length > 0 &&
