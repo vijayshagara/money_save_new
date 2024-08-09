@@ -83,17 +83,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .table_card {
-    padding-left: 0;
-  }
-
-  .card_p_table_text {
-    width: 31rem !important;
-  }
-}
-
-
 @media (min-width: 1281px) {
   .table_card {
     padding-left: 0;
@@ -125,4 +114,13 @@
   .card_p_table_text {
     width: 43rem !important;
 }
+}
+@media (max-width: 600px) {
+  .table_card {
+    padding-left: 0;
+  }
+
+  .card_p_table_text {
+    width: 31rem !important;
+  }
 }
