@@ -96,16 +96,6 @@
   }
 }
 
-@media (min-width: 1025px) {
-  .table_card {
-    padding-left: 0;
-    padding-top: 0;
-  }
-
-  .card_p_table_text {
-    width: 56rem !important;
-  }
-}
 
 @media (min-width: 1281px) {
   .table_card {
@@ -115,5 +105,16 @@
 
   .card_p_table_text {
     width: 1150px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .table_card {
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .card_p_table_text {
+    width: 56rem !important;
   }
 }
