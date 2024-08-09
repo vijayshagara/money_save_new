@@ -46,7 +46,7 @@ img {
 @media (max-width: 801px) {
     .card-body-df {
         flex-direction: column;
-        width: 46rem !important;
+        width: 28rem !important;
     }
 
 }
