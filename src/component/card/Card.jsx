@@ -71,6 +71,7 @@ const Card = () => {
   });
   return (
     <div className="Parent_card">
+      <h2>Dashboard</h2>
       {array &&
         array.length > 0 &&
         array.map((v) => (
