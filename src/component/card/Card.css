@@ -59,7 +59,7 @@ img {
 
 }
 
-@media (max-width:1025px) or (min-width:1025px) {
+@media (max-width:1025px) {
     .card-body-df {
         width: 57rem !important;
         justify-content: space-between;
