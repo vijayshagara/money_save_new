@@ -8,6 +8,7 @@ import Table from "../../component/Table/Table";
 const Home = () => {
   return (
     <div className="home">
+      <h2 className="text-white">Dashboard</h2>
       <Card />
       <div className="parent_chart">
         <ApexChart />
