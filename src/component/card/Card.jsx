@@ -71,7 +71,7 @@ const Card = () => {
   });
   return (
     <>
-            <h2 className="text-white">Dashboard</h2>
+    <h2 className="text-white pt-3 pb-3">Dashboard</h2>
     <div className="Parent_card">
       {array &&
         array.length > 0 &&
