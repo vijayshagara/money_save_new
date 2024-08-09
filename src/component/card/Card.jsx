@@ -10,7 +10,7 @@ let array = [
   {
     id: "1",
     img: dollar,
-    title: "Earning",
+    title: "Total Orders",
     price: "$198K",
     increase: "37.8% ",
     time: "This month",
@@ -19,7 +19,7 @@ let array = [
   {
     id: "2",
     img: order,
-    title: "Order",
+    title: "Total Delivered",
     price: "$2.4K",
     increase: "2% ",
     time: "This month",
@@ -28,7 +28,7 @@ let array = [
   {
     id: "3",
     img: balance,
-    title: "Balance",
+    title: "Total Cancelled",
     price: "$2.4K",
     increase: "2% ",
     time: "This month",
@@ -37,7 +37,7 @@ let array = [
   {
     id: "4",
     img: total,
-    title: "Total sales",
+    title: "Total Revenue",
     price: "$89K",
     increase: "11% ",
     time: "This week",
