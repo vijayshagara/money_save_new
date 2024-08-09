@@ -43,13 +43,6 @@ img {
     }
 }
 
-@media (max-width: 801px) {
-    .card-body-df {
-        flex-direction: column;
-        width: 28rem !important;
-    }
-
-}
 
 @media (max-width:1025px) {
     .card-body-df {
@@ -68,6 +61,13 @@ img {
     }
 }
 
+@media (max-width: 801px) {
+    .card-body-df {
+        flex-direction: column;
+        width: 28rem !important;
+    }
+
+}
 @media (max-width: 600px) {
     .card-body-df {
         width : 31rem !important;
