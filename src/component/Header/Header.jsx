@@ -175,7 +175,7 @@ export default function Header() {
               noWrap
               component="div"
               sx={{ display: { xs: "none", sm: "block" } }}
-              style={{color:"pink"}}
+              style={{color:"#c1354d"}}
             >
               FITPEO
             </Typography>
