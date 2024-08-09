@@ -84,7 +84,7 @@ const Card = () => {
               <p className="card-text" style={{ color: "white" }}>
                 {v.title}
               </p>
-              <p className="card-text">{v.price}</p>
+              <p className="card-text"><h4>{v.price}</h4></p>
               <p className="card-text">
                 <span style={{ color: `${v.color}` }}>{v.increase}</span>
                 {v.time}
