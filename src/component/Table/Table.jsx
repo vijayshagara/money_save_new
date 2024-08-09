@@ -79,10 +79,7 @@ const Table = () => {
           </tbody>
         </table>
       </div>
-      <div
-        className="table_card"
-        style={{ width: "557px", padding: "0px 0 0 0" }}
-      >
+      <div className="table_card">
         <div className="card_p_table_text p-2">
           <h3 className="text-white">Customer's Feedback</h3>
           {feedbackData.map((item) => (
