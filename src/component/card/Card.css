@@ -35,6 +35,8 @@ img {
 @media (max-width: 480px) {
     .card {
         width: 26rem !important;
+        display: flex;
+        flex-direction: row;
     }
 
     .card-body-df {
