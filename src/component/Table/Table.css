@@ -36,11 +36,12 @@
   flex-wrap: wrap;
   gap: 3px;
 }
-
+@media (min-width: 1281px) {
 .table_card {
   padding-top: 38px !important;
   padding-left: 75px;
   width: 640px !important;
+}
 }
 
 .table tr {
