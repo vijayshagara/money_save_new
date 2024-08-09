@@ -117,4 +117,8 @@
     padding-left: 0;
     padding-top: 0;
   }
+
+  .card_p_table_text {
+    width: 56.2rem !important;
+}
 }
