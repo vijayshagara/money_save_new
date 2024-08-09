@@ -43,7 +43,7 @@ img {
     }
 }
 
-@media (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 600px) {
     .card-body-df {
         width : 31rem !important;
         flex-direction: column !important;
@@ -51,22 +51,22 @@ img {
 
 }
 
-@media (max-width: 801px) {
+@media (min-width: 600px) annd (max-width: 801px) {
     .card-body-df {
         flex-direction: column;
-        width: 462px;
+        width: 46rem !important;
     }
 
 }
 
-@media (max-width:1025px) {
+@media (min-width: 801px) and (max-width:1025px) {
     .card-body-df {
         width: 57rem !important;
         justify-content: space-between;
     }
 }
 
-@media (min-width:1281px) or (max-width:1281px) {
+@media (min-width:1025px) or (max-width:1281px) {
     .card-body-df {
         width: 73rem !important;
         justify-content: space-between;
