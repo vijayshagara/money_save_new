@@ -171,11 +171,11 @@ export default function Header() {
 {/*               <MenuIcon /> */}
             </IconButton>
             <Typography
-              variant="h6"
+              variant="h4"
               noWrap
               component="div"
               sx={{ display: { xs: "none", sm: "block" } }}
-              style={{color:"rgb(239 120 140)"; font-weight:"30px"}}
+              style={{color:"rgb(239 120 140)"}}
             >
               FITPEO
             </Typography>
