@@ -124,3 +124,15 @@
     width: 368px !important;
   }
 }
+
+.button{
+  border: none !important;
+  color: rgb(108, 183, 89) !important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  margin: 4px 2px !important;
+  cursor: pointer !important;
+  border-radius: 16px !important;
+}
