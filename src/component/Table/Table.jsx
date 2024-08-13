@@ -73,7 +73,7 @@ const Table = () => {
                 </td>
                 <td style={{border:"none"}}>{item.stock}</td>
                 <td style={{border:"none"}}>{item.price}</td>
-                <td style={{border:"none"}}>{item.totalSale}</td>
+                <td style={{border:"none"}}><Button variant="contained" className="button" color="success">Delivered</Button></td>
               </tr>
             ))}
           </tbody>
