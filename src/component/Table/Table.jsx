@@ -3,6 +3,7 @@ import "./Table.css";
 import tabimag1 from "../../assets/tabImag1.png";
 import tabimag2 from "../../assets/tabImag2.png";
 import Rating from "../RatingStar/Rating";
+import Button from '@mui/material/Button';
 
 const data = [
   {
